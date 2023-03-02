@@ -1,6 +1,6 @@
 - name: copy file for deployment
   hosts: apache
-  user: ranjan
+  user: nodeuser
   become: yes
   connection: ssh
   tasks:
