@@ -1,5 +1,5 @@
 - name: copy file for deployment
-  hosts: apache
+  hosts: server
   user: nodeuser
   become: yes
   connection: ssh
